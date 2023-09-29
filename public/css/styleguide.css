@@ -1,0 +1,22 @@
+:root {
+    --neutral-color60: rgba(102, 116, 121, 1);
+    --neutral-color40: rgba(153, 162, 165, 1);
+    --neutral-color00: rgba(253, 253, 253, 1);
+    --primary-colordark-blue: rgba(0, 52, 89, 1);
+    --neutral-color20: rgba(204, 209, 210, 1);
+    --primary-colordark-blue-80: rgba(0, 42, 72, 1);
+    --primary: rgba(84, 95, 113, 1);
+    --neutral-color80: rgba(36, 43, 51, 1);
+    --body-16px-medium-font-family: "SVN-Gilroy-Medium", Helvetica;
+    --body-16px-medium-font-weight: 500;
+    --body-16px-medium-font-size: 16px;
+    --body-16px-medium-letter-spacing: 0px;
+    --body-16px-medium-line-height: 24px;
+    --body-16px-medium-font-style: normal;
+    --body-14px-medium-font-family: "SVN-Gilroy-Medium", Helvetica;
+    --body-14px-medium-font-weight: 500;
+    --body-14px-medium-font-size: 14px;
+    --body-14px-medium-letter-spacing: 0px;
+    --body-14px-medium-line-height: 20px;
+    --body-14px-medium-font-style: normal;
+  }
