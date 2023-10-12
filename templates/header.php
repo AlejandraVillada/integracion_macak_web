@@ -19,13 +19,14 @@
 
 </head>
 <style>
-
-.bg-primary-plantilla{
+.bg-primary-plantilla {
     background-color: var(--primary-colordark-blue) !important;
 }
-.nav-link{
-    color:white !important;
+
+.nav-link {
+    color: white !important;
 }
+
 .click-here-9 {
     font-family: "Abhaya Libre-Bold", Helvetica;
     font-weight: 700;
@@ -36,13 +37,15 @@
     width: fit-content;
     letter-spacing: 0;
     white-space: nowrap;
-    
+
 }
-li a.item{
-    border-radius: 80px;
-    padding-top:5px!important;
-    padding-bottom:5px!important;
+
+li a.item {
+    /* border-radius: 80px; */
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
 }
+
 /* .button-l {
     width: 95px;
     height: 39px;
@@ -58,6 +61,7 @@ li a.item{
     justify-content: center;
 } */
 </style>
+
 <body>
 
 
@@ -94,12 +98,12 @@ li a.item{
                     if (isset($_SESSION['username']) && $_SESSION['username'] != '') {
                     ?>
                     <li class="nav-item button-l" style=" color:black; display:none;" id="iniciar_sesion">
-                        <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
-                                href="src/vistas/login.php">Iniciar Sesión</a></b>
+                        <a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
+                            href="src/vistas/login.php">Iniciar Sesión</a>
                     </li>
                     <li class="nav-item button-l" style=" color:black; display:none;" id="registrarse">
-                        <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
-                                href="src/vistas/register.php">Registrarse</a></b>
+                        <a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
+                            href="src/vistas/register.php">Registrarse</a>
                     </li>
                     <?php
                         if (isset($_SESSION['user_type']) && $_SESSION['user_type'] == '3') {
@@ -111,7 +115,8 @@ li a.item{
                     <?php
                         } else {
                         ?>
-                    <li class="nav-item button-l" style=" color:black; display:none;" id="iniciar_administrador_fundaciones">
+                    <li class="nav-item button-l" style=" color:black; display:none;"
+                        id="iniciar_administrador_fundaciones">
                         <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla  " href="administrador">
                                 <span>Admin</span></a></b>
                     </li>
@@ -137,7 +142,8 @@ li a.item{
                         <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
                                 href="src/vistas/register.php">Registrarse</a></b>
                     </li>
-                    <li class="nav-item button-l" style=" color:black; display:none;" id="iniciar_administrador_fundaciones">
+                    <li class="nav-item button-l" style=" color:black; display:none;"
+                        id="iniciar_administrador_fundaciones">
                         <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla  " href="administrador">
                                 <span>Admin</span></a></b>
                     </li>
@@ -160,5 +166,5 @@ li a.item{
 
         </div>
     </nav>
-    
+
     <div id="contenido">

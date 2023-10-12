@@ -161,12 +161,12 @@ li a.btn_menu{
 .home .div {
     background-color: #fceed5;
     width: 1440px;
-    height: 1887.14px;
+    height: 1750px;
     position: relative;
 }
 
-.home .footer {
-    position: absolute;
+.footer {
+    /* position: absolute; */
     width: 1422px;
     height: 126px;
     top: 1755px;
@@ -181,7 +181,7 @@ li a.btn_menu{
             rgb(255, 230.83, 185.94) 100%);
 }
 
-.home .derechos-reservados {
+.derechos-reservados {
     position: absolute;
     width: 706px;
     height: 67px;
@@ -189,7 +189,7 @@ li a.btn_menu{
     left: 371px;
 }
 
-.home .text-wrapper {
+.text-wrapper {
     position: absolute;
     top: -32px;
     left: 0;
@@ -202,7 +202,7 @@ li a.btn_menu{
     white-space: nowrap;
 }
 
-.home .terms-of-service {
+.terms-of-service {
     position: absolute;
     top: -31px;
     left: 570px;
@@ -215,7 +215,7 @@ li a.btn_menu{
     white-space: nowrap;
 }
 
-.home .overlap-group {
+.overlap-group {
     position: absolute;
     width: 1365px;
     height: 86px;
@@ -223,7 +223,7 @@ li a.btn_menu{
     left: 25px;
 }
 
-.home .redes-sociales {
+.redes-sociales {
     display: flex;
     width: 176px;
     height: 23px;
@@ -235,7 +235,7 @@ li a.btn_menu{
     transform: rotate(0.03deg);
 }
 
-.home .img {
+.img {
     position: relative;
     width: 24px;
     height: 24px;
@@ -250,10 +250,10 @@ li a.btn_menu{
     margin-right: -10.66px;
 }
 
-.home .frame {
+.frame {
     position: absolute;
     width: 1365px;
-    height: 77px;
+    height: 90px;
     top: 0;
     left: 0;
     border-bottom-width: 0.76px;
@@ -262,7 +262,7 @@ li a.btn_menu{
     transform: rotate(0.03deg);
 }
 
-.home .frame-2 {
+.frame-2 {
     display: flex;
     width: 1385px;
     height: 82px;
@@ -276,7 +276,7 @@ li a.btn_menu{
     border-radius: 12.09px;
 }
 
-.home .p {
+.p {
     position: relative;
     width: 521px;
     height: 84px;
@@ -290,7 +290,7 @@ li a.btn_menu{
     line-height: 30px;
 }
 
-.home .suscribete {
+.suscribete {
     display: flex;
     width: 738px;
     height: 55px;
@@ -304,7 +304,7 @@ li a.btn_menu{
     border-radius: 10.58px;
 }
 
-.home .input {
+.input {
     width: 604px;
     height: 31px;
     padding: 10.58px 21.15px;
@@ -328,7 +328,7 @@ li a.btn_menu{
     background-image: url("https://c.animaapp.com/SKPIC6Mj/img/rectangle-9.svg");
 }
 
-.home .button-l {
+.button-l {
     width: 95px;
     height: 39px;
     gap: 7.55px;
@@ -343,7 +343,7 @@ li a.btn_menu{
     justify-content: center;
 }
 
-.home .click-here {
+.click-here {
     margin-top: -5.32px;
     margin-bottom: -3.81px;
     font-family: "Abel-Regular", Helvetica;
@@ -1772,4 +1772,857 @@ li a.btn_menu{
 p {
     font-family: "ABeeZee-Italic", Helvetica;
 }
+
+.donaciones {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .donaciones .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1887.14px;
+  }
+  
+  .donaciones .overlap {
+    position: relative;
+    width: 2568px;
+    height: 2349px;
+    top: -500px;
+    left: -594px;
+  }
+  
+  .donaciones .overlap-group {
+    position: absolute;
+    width: 640px;
+    height: 42px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .donaciones .navbar {
+    display: flex;
+    width: 576px;
+    height: 24px;
+    align-items: flex-start;
+    gap: 35.91px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+  
+  .donaciones .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.6px;
+    font-family: "ABeeZee-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--primary-colordark-blue);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .registrate {
+    display: flex;
+    width: 135px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 0;
+    left: 504px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+  }
+  
+  .donaciones .click-here {
+    position: relative;
+    width: fit-content;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color00);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .login {
+    display: flex;
+    width: 135px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 0;
+    left: 655px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+  }
+  
+  .donaciones .group {
+    position: absolute;
+    width: 2568px;
+    height: 2349px;
+    top: 0;
+    left: 0;
+  }
+  
+  .donaciones .div {
+    position: relative;
+    width: 2525px;
+    height: 2384px;
+    top: -35px;
+    left: 39px;
+  }
+  
+  .donaciones .overlap-2 {
+    position: absolute;
+    width: 2210px;
+    height: 1769px;
+    top: 615px;
+    left: 315px;
+  }
+  
+  .donaciones .rectangle {
+    position: absolute;
+    width: 2070px;
+    height: 820px;
+    top: 505px;
+    left: 70px;
+    background-color: #003459cc;
+    border-radius: 35px;
+    transform: rotate(-28.5deg);
+  }
+  
+  .donaciones .banner {
+    position: absolute;
+    width: 1159px;
+    height: 1574px;
+    top: 0;
+    left: 389px;
+    background-color: #003459;
+    border-radius: 15.35px;
+    overflow: hidden;
+  }
+  
+  .donaciones .overlap-group-2 {
+    position: relative;
+    width: 1708px;
+    height: 2535px;
+    top: -231px;
+    left: -366px;
+  }
+  
+  .donaciones .rectangle-2 {
+    position: absolute;
+    width: 1322px;
+    height: 774px;
+    top: 1494px;
+    left: 104px;
+    background-color: var(--primary-colordark-blue-80);
+    border-radius: 75.99px;
+    transform: rotate(28.25deg);
+  }
+  
+  .donaciones .rectangle-3 {
+    position: absolute;
+    width: 1348px;
+    height: 1050px;
+    top: 123px;
+    left: 269px;
+    background-color: #fceed5;
+    border-radius: 57.57px;
+    transform: rotate(11.41deg);
+  }
+  
+  .donaciones .horizontal-shot {
+    position: absolute;
+    width: 839px;
+    height: 799px;
+    top: 1006px;
+    left: 526px;
+    object-fit: cover;
+  }
+  
+  .donaciones .formulario-de {
+    position: absolute;
+    width: 689px;
+    height: 578px;
+    top: 54px;
+    left: 609px;
+  }
+  
+  .donaciones .overlap-3 {
+    position: relative;
+    height: 578px;
+  }
+  
+  .donaciones .fondo-donaciones {
+    position: absolute;
+    width: 687px;
+    height: 576px;
+    top: 1px;
+    left: 1px;
+    background-color: #ffffffe6;
+    border-radius: 59.25px;
+    transform: rotate(0.2deg);
+  }
+  
+  .donaciones .rectangle-4 {
+    position: absolute;
+    width: 340px;
+    height: 37px;
+    top: 235px;
+    left: 168px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .donaciones .cantidad-a-donar {
+    display: flex;
+    width: 260px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 206px;
+    left: 168px;
+  }
+  
+  .donaciones .menu-label {
+    position: relative;
+    width: fit-content;
+    margin-left: -18.4px;
+    margin-right: -18.4px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .menu-label-wrapper {
+    width: 260px;
+    height: 27px;
+    top: 93px;
+    left: 89px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+  }
+  
+  .donaciones .menu-label-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .div-wrapper {
+    width: 82px;
+    height: 21px;
+    top: 297px;
+    left: 156px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+  }
+  
+  .donaciones .boton-donar {
+    display: flex;
+    width: 294px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 416px;
+    left: 210px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .donaciones .click-here-2 {
+    margin-top: -0.63px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    position: relative;
+    width: fit-content;
+    color: var(--neutral-color00);
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .donaciones .selecione-banco {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 75px;
+    align-items: flex-start;
+    position: absolute;
+    top: 107px;
+    left: 169px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .donaciones .dropdown-box {
+    display: flex;
+    flex-direction: column;
+    width: 381.01px;
+    height: 98.78px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -23.72px;
+    transform: rotate(0.03deg);
+  }
+  
+  .donaciones .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-left: -1.3px;
+    margin-right: -1.3px;
+    z-index: 1;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1.3px solid;
+    border-color: var(--bluesgray-2);
+  }
+  
+  .donaciones .menu-label-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .donaciones .menu-label-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--drop-menu-menu-font-family);
+    font-weight: var(--drop-menu-menu-font-weight);
+    color: var(--black);
+    font-size: var(--drop-menu-menu-font-size);
+    letter-spacing: var(--drop-menu-menu-letter-spacing);
+    line-height: var(--drop-menu-menu-line-height);
+    white-space: nowrap;
+    font-style: var(--drop-menu-menu-font-style);
+  }
+  
+  .donaciones .icons-regular {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .items-frame {
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .donaciones .items-list {
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+    height: 218px;
+    align-items: center;
+    justify-content: flex-end;
+    top: 1px;
+    background-color: var(--white);
+    border-radius: 0px 0px 8px 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .donaciones .item-hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 4;
+    background-color: var(--white);
+  }
+  
+  .donaciones .label {
+    position: relative;
+    width: 45px;
+    height: 18px;
+  }
+  
+  .donaciones .text-wrapper-2 {
+    position: absolute;
+    height: 18px;
+    top: -1px;
+    left: 0;
+    font-family: var(--drop-menu-menu-font-family);
+    font-weight: var(--drop-menu-menu-font-weight);
+    color: var(--black);
+    font-size: var(--drop-menu-menu-font-size);
+    letter-spacing: var(--drop-menu-menu-letter-spacing);
+    line-height: var(--drop-menu-menu-line-height);
+    white-space: nowrap;
+    font-style: var(--drop-menu-menu-font-style);
+  }
+  
+  .donaciones .img {
+    margin-bottom: -93.37px;
+    margin-left: -11453.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .item-hover-2 {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .donaciones .label-2 {
+    position: relative;
+    width: 49px;
+    height: 18px;
+  }
+  
+  .donaciones .icons-regular-2 {
+    margin-bottom: -51.37px;
+    margin-left: -11457.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .item-hover-3 {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .donaciones .icons-regular-3 {
+    margin-bottom: -9.37px;
+    margin-left: -11457.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .item-hover-4 {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .donaciones .label-3 {
+    position: relative;
+    width: 50px;
+    height: 18px;
+  }
+  
+  .donaciones .icons-regular-4 {
+    margin-top: -32.63px;
+    margin-left: -11458.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .item-hover-5 {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .donaciones .icons-regular-5 {
+    margin-top: -74.63px;
+    margin-left: -11457.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .fundacin-a-donar {
+    display: flex;
+    flex-direction: column;
+    width: 284px;
+    height: 45px;
+    align-items: flex-start;
+    position: absolute;
+    top: 301px;
+    left: 168px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .donaciones .dropdown-box-2 {
+    display: flex;
+    flex-direction: column;
+    width: 381.01px;
+    height: 98.78px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -54.21px;
+    margin-right: -97.13px;
+    transform: rotate(0.03deg);
+  }
+  
+  .donaciones .icons-regular-6 {
+    margin-top: -100.89px;
+    margin-left: -11451.5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .icons-regular-7 {
+    margin-top: -142.89px;
+    margin-left: -11455.5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .icons-regular-8 {
+    margin-top: -184.89px;
+    margin-left: -11455.5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .icons-regular-9 {
+    margin-top: -226.89px;
+    margin-left: -11456.5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .icons-regular-10 {
+    margin-top: -268.89px;
+    margin-left: -11455.5px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .donaciones .overlap-4 {
+    position: absolute;
+    width: 806px;
+    height: 846px;
+    top: 0;
+    left: 0;
+  }
+  
+  .donaciones .fondo {
+    position: absolute;
+    width: 448px;
+    height: 722px;
+    top: 62px;
+    left: 172px;
+    background-color: #f7dba7b2;
+    border-radius: 35px;
+    transform: rotate(-37.11deg);
+  }
+  
+  .donaciones .line {
+    position: absolute;
+    width: 162px;
+    height: 5px;
+    top: 544px;
+    left: 605px;
+  }
+  
+  .donaciones .text-wrapper-3 {
+    position: absolute;
+    width: 96px;
+    height: 29px;
+    top: 451px;
+    left: 614px;
+    font-family: "Permanent Marker-Regular", Helvetica;
+    font-weight: 400;
+    color: #003459;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .donaciones .text-wrapper-4 {
+    position: absolute;
+    width: 201px;
+    height: 27px;
+    top: 518px;
+    left: 605px;
+    font-family: "ABeeZee-Regular", Helvetica;
+    font-weight: 400;
+    color: #002a48;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .donaciones .footer {
+    position: absolute;
+    width: 1422px;
+    height: 126px;
+    top: 2155px;
+    left: 604px;
+    background-color: transparent;
+    border-radius: 23.94px 23.94px 23.9px 23.9px;
+    overflow: hidden;
+    transform: rotate(-0.03deg);
+    background: linear-gradient(
+      180deg,
+      rgb(251.81, 238.23, 212.99) 6.17%,
+      rgb(251.81, 238.23, 212.99) 75.14%,
+      rgb(255, 230.83, 185.94) 100%
+    );
+  }
+  
+  .donaciones .derechos-reservados {
+    position: absolute;
+    width: 706px;
+    height: 67px;
+    top: 133px;
+    left: 371px;
+  }
+  
+  .donaciones .p {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color60);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .terms-of-service {
+    position: absolute;
+    top: -31px;
+    left: 570px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color60);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .donaciones .overlap-5 {
+    position: absolute;
+    width: 1365px;
+    height: 86px;
+    top: 35px;
+    left: 25px;
+  }
+  
+  .donaciones .redes-sociales {
+    display: flex;
+    width: 176px;
+    height: 23px;
+    align-items: flex-start;
+    gap: 30.22px;
+    position: absolute;
+    top: 63px;
+    left: 625px;
+    transform: rotate(0.03deg);
+  }
+  
+  .donaciones .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -1px;
+  }
+  
+  .donaciones .youtube-negative {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -1px;
+    margin-right: -10.66px;
+  }
+  
+  .donaciones .frame {
+    position: absolute;
+    width: 1365px;
+    height: 77px;
+    top: 0;
+    left: 0;
+    border-bottom-width: 0.76px;
+    border-bottom-style: solid;
+    border-color: var(--neutral-color20);
+    transform: rotate(0.03deg);
+  }
+  
+  .donaciones .frame-2 {
+    display: flex;
+    width: 1385px;
+    height: 82px;
+    align-items: flex-start;
+    gap: 15.11px;
+    padding: 24.18px;
+    position: relative;
+    top: -22px;
+    left: -9px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 12.09px;
+  }
+  
+  .donaciones .text-wrapper-5 {
+    position: relative;
+    width: 521px;
+    height: 84px;
+    margin-top: -0.76px;
+    margin-bottom: -49.6px;
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .donaciones .suscribete {
+    display: flex;
+    width: 738px;
+    height: 55px;
+    align-items: center;
+    gap: 9.07px;
+    padding: 9.07px;
+    position: absolute;
+    top: 14px;
+    left: 601px;
+    background-color: #ffffff;
+    border-radius: 10.58px;
+  }
+  
+  .donaciones .input {
+    width: 604px;
+    height: 31px;
+    padding: 10.58px 21.15px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 6.04px;
+    border: 0.76px solid;
+    border-color: var(--neutral-color40);
+    flex: 1;
+    margin-top: -10.83px;
+    margin-bottom: -9.32px;
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-color40);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .donaciones .button-l {
+    display: flex;
+    width: 95px;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    gap: 7.55px;
+    padding: 10.58px 21.15px 7.55px;
+    position: relative;
+    margin-top: -1.07px;
+    margin-bottom: -1.07px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 6.04px;
+  }
+  
+  .donaciones .click-here-3 {
+    margin-top: -5.32px;
+    margin-bottom: -3.81px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 12.1px;
+    line-height: 30px;
+    position: relative;
+    width: fit-content;
+    color: var(--neutral-color00);
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
 

@@ -1,41 +1,12 @@
 <?php
 $_SESSION['title'] = 'MACAK| Home ';
 // include_once('templates/header.php');
-
-
 ?>
 
 <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
 
 <div class="home">
     <div class="div">
-        <footer class="footer">
-            <div class="derechos-reservados">
-                <p class="text-wrapper">© 2023 MACAK. All rights reserved.</p>
-                <div class="terms-of-service">
-                    Terms of Service&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy
-                </div>
-            </div>
-            <div class="overlap-group">
-                <div class="redes-sociales">
-                    <img class="img" src="https://c.animaapp.com/SKPIC6Mj/img/facebook---negative.svg" />
-                    <img class="img" src="https://c.animaapp.com/SKPIC6Mj/img/twitter---negative.svg" />
-                    <img class="img" src="https://c.animaapp.com/SKPIC6Mj/img/instagram---negative.svg" />
-                    <img class="youtube-negative" src="https://c.animaapp.com/SKPIC6Mj/img/youtube---negative.svg" />
-                </div>
-                <div class="frame">
-                    <div class="frame-2">
-                        <p class="p">Regístrate ahora para no perderte Sobre nuestras novedades</p>
-                        <div class="suscribete">
-                            <input class="input" placeholder="Ingrese su&amp;nbsp;&amp;nbsp;Email" type="email" />
-                            <div class="button-l">
-                                <div class="click-here">Suscribete</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
         <div class="seccin-fundaciones">
             <div class="overlap">
                 <div class="fondo">
