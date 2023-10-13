@@ -100,7 +100,7 @@ li a.item {
                     <li class="nav-item button-l" style=" color:black; display:none;" id="iniciar_sesion">
                         <a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
                             href="src/vistas/login.php">Iniciar Sesión</a>
-                    </li>
+                    </li>   
                     <li class="nav-item button-l" style=" color:black; display:none;" id="registrarse">
                         <a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
                             href="src/vistas/register.php">Registrarse</a>
@@ -134,11 +134,11 @@ li a.item {
                     <?php
                     } else {
                     ?>
-                    <li class="nav-item button-l" style=" color:black; " id="iniciar_sesion">
+                    <li class="nav-item " style=" color:black; " id="iniciar_sesion">
                         <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
                                 href="src/vistas/login.php">Iniciar Sesión</a></b>
                     </li>
-                    <li class="nav-item button-l" style=" color:black; " id="registrarse">
+                    <li class="nav-item " style=" color:black; " id="registrarse">
                         <b><a class="item nav-link btn p-1 m-1 bg-primary-plantilla listar activar_boton"
                                 href="src/vistas/register.php">Registrarse</a></b>
                     </li>
