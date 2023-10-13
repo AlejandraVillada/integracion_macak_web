@@ -2626,3 +2626,870 @@ p {
     white-space: nowrap;
   }
 
+  .login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .login .overlap-wrapper {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1526px;
+  }
+  
+  .login .overlap {
+    position: relative;
+    width: 2570px;
+    height: 2348px;
+    top: -400px;
+    left: -594px;
+  }
+  
+  .login .nav {
+    position: absolute;
+    width: 790px;
+    height: 43px;
+    top: 418px;
+    left: 1184px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .login .overlap-group {
+    position: absolute;
+    width: 640px;
+    height: 42px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .login .navbar {
+    display: flex;
+    width: 576px;
+    height: 24px;
+    align-items: flex-start;
+    gap: 35.91px;
+    position: absolute;
+    top: 12px;
+    left: 0;
+  }
+  
+  .login .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -0.6px;
+    font-family: "ABeeZee-Italic", Helvetica;
+    font-weight: 400;
+    font-style: italic;
+    color: var(--primary-colordark-blue);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .login .registrate {
+    display: flex;
+    width: 135px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 0;
+    left: 504px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+  }
+  
+  .login .click-here {
+    position: relative;
+    width: fit-content;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color00);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+  }
+  
+  .login .click-here-wrapper {
+    display: flex;
+    width: 135px;
+    height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 0;
+    left: 655px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+  }
+  
+  .login .group {
+    position: absolute;
+    width: 2570px;
+    height: 2348px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login .div {
+    position: relative;
+    width: 2525px;
+    height: 2383px;
+    top: -35px;
+    left: 39px;
+  }
+  
+  .login .overlap-2 {
+    position: absolute;
+    width: 2210px;
+    height: 1768px;
+    top: 615px;
+    left: 315px;
+  }
+  
+  .login .rectangle {
+    position: absolute;
+    width: 2070px;
+    height: 820px;
+    top: 504px;
+    left: 70px;
+    background-color: #003459cc;
+    border-radius: 35px;
+    transform: rotate(-28.5deg);
+  }
+  
+  .login .banner {
+    position: absolute;
+    width: 1159px;
+    height: 1206px;
+    top: 0;
+    left: 389px;
+    background-color: #003459;
+    border-radius: 15.35px;
+    overflow: hidden;
+  }
+  
+  .login .rectangle-2 {
+    position: absolute;
+    width: 1322px;
+    height: 774px;
+    top: 1264px;
+    left: -262px;
+    background-color: var(--primary-colordark-blue-80);
+    border-radius: 75.99px;
+    transform: rotate(28.25deg);
+  }
+  
+  .login .overlap-group-2 {
+    position: absolute;
+    width: 1529px;
+    height: 1390px;
+    top: -231px;
+    left: -188px;
+  }
+  
+  .login .rectangle-3 {
+    position: absolute;
+    width: 1348px;
+    height: 1050px;
+    top: 123px;
+    left: 91px;
+    background-color: #fceed5;
+    border-radius: 57.57px;
+    transform: rotate(11.41deg);
+  }
+  
+  .login .adorable-perro {
+    position: absolute;
+    width: 807px;
+    height: 576px;
+    top: 814px;
+    left: 188px;
+    object-fit: cover;
+  }
+  
+  .login .fondo-donaciones {
+    position: absolute;
+    width: 687px;
+    height: 576px;
+    top: 55px;
+    left: 610px;
+    background-color: #ffffffe6;
+    border-radius: 59.25px;
+    transform: rotate(0.2deg);
+  }
+  
+  .login .text-wrapper-2 {
+    width: 193px;
+    height: 34px;
+    top: 88px;
+    left: 869px;
+    font-size: 50px;
+    position: absolute;
+    font-family: "Permanent Marker-Regular", Helvetica;
+    font-weight: 400;
+    color: #003459;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .login .footer {
+    position: absolute;
+    width: 1422px;
+    height: 126px;
+    top: 1164px;
+    left: 255px;
+    background-color: transparent;
+    border-radius: 23.94px 23.94px 23.9px 23.9px;
+    overflow: hidden;
+    transform: rotate(-0.03deg);
+    background: linear-gradient(
+      180deg,
+      rgb(251.81, 238.23, 212.99) 6.17%,
+      rgb(251.81, 238.23, 212.99) 75.14%,
+      rgb(255, 230.83, 185.94) 100%
+    );
+  }
+  
+  .login .derechos-reservados {
+    position: absolute;
+    width: 706px;
+    height: 67px;
+    top: 133px;
+    left: 371px;
+  }
+  
+  .login .p {
+    position: absolute;
+    top: -32px;
+    left: 0;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color60);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .terms-of-service {
+    position: absolute;
+    top: -31px;
+    left: 570px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--neutral-color60);
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .overlap-3 {
+    position: absolute;
+    width: 1365px;
+    height: 86px;
+    top: 35px;
+    left: 25px;
+  }
+  
+  .login .redes-sociales {
+    display: flex;
+    width: 176px;
+    height: 23px;
+    align-items: flex-start;
+    gap: 30.22px;
+    position: absolute;
+    top: 63px;
+    left: 625px;
+    transform: rotate(0.03deg);
+  }
+  
+  .login .img {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -1px;
+  }
+  
+  .login .youtube-negative {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    margin-bottom: -1px;
+    margin-right: -10.66px;
+  }
+  
+  .login .frame {
+    position: absolute;
+    width: 1365px;
+    height: 77px;
+    top: 0;
+    left: 0;
+    border-bottom-width: 0.76px;
+    border-bottom-style: solid;
+    border-color: var(--neutral-color20);
+    transform: rotate(0.03deg);
+  }
+  
+  .login .frame-2 {
+    display: flex;
+    width: 1385px;
+    height: 82px;
+    align-items: flex-start;
+    gap: 15.11px;
+    padding: 24.18px;
+    position: relative;
+    top: -22px;
+    left: -9px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 12.09px;
+  }
+  
+  .login .text-wrapper-3 {
+    position: relative;
+    width: 521px;
+    height: 84px;
+    margin-top: -0.76px;
+    margin-bottom: -49.6px;
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .login .suscribete {
+    display: flex;
+    width: 738px;
+    height: 55px;
+    align-items: center;
+    gap: 9.07px;
+    padding: 9.07px;
+    position: absolute;
+    top: 14px;
+    left: 601px;
+    background-color: #ffffff;
+    border-radius: 10.58px;
+  }
+  
+  .login .input {
+    width: 604px;
+    height: 31px;
+    padding: 10.58px 21.15px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 6.04px;
+    border: 0.76px solid;
+    border-color: var(--neutral-color40);
+    flex: 1;
+    margin-top: -10.83px;
+    margin-bottom: -9.32px;
+    font-family: "Abhaya Libre ExtraBold-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--neutral-color40);
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 30px;
+  }
+  
+  .login .button-l {
+    display: flex;
+    width: 95px;
+    height: 39px;
+    align-items: center;
+    justify-content: center;
+    gap: 7.55px;
+    padding: 10.58px 21.15px 7.55px;
+    position: relative;
+    margin-top: -1.07px;
+    margin-bottom: -1.07px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 6.04px;
+  }
+  
+  .login .click-here-2 {
+    margin-top: -5.32px;
+    margin-bottom: -3.81px;
+    font-family: "Abel-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 12.1px;
+    line-height: 30px;
+    position: relative;
+    width: fit-content;
+    color: var(--neutral-color00);
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .login .overlap-group-wrapper {
+    position: absolute;
+    width: 17px;
+    height: 15px;
+    top: 419px;
+    left: 771px;
+  }
+  
+  .login .div-wrapper {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: #002a48b2;
+    border-radius: 7.5px;
+  }
+  
+  .login .text-wrapper-4 {
+    position: absolute;
+    width: 4px;
+    height: 12px;
+    top: 2px;
+    left: 6px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .rectangle-4 {
+    position: absolute;
+    width: 382px;
+    height: 37px;
+    top: 290px;
+    left: 763px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .login .rectangle-5 {
+    position: absolute;
+    width: 382px;
+    height: 37px;
+    top: 369px;
+    left: 763px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .login .cantidad-a-donar {
+    display: flex;
+    width: 260px;
+    height: 27px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    top: 148px;
+    left: 818px;
+  }
+  
+  .login .menu-label {
+    position: relative;
+    width: fit-content;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .menu-label-wrapper {
+    width: 82px;
+    height: 21px;
+    top: 259px;
+    left: 764px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+  }
+  
+  .login .cantidad-a-donar-2 {
+    width: 181px;
+    height: 23px;
+    top: 415px;
+    left: 793px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+  }
+  
+  .login .menu-label-2 {
+    position: relative;
+    width: fit-content;
+    margin-left: -0.5px;
+    margin-right: -0.5px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #002a48b2;
+    font-size: 15px;
+    letter-spacing: 0.45px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .cantidad-a-donar-3 {
+    width: 82px;
+    height: 21px;
+    top: 346px;
+    left: 786px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+  }
+  
+  .login .menu-label-3 {
+    position: relative;
+    width: fit-content;
+    margin-left: -22px;
+    margin-right: -22px;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: var(--black);
+    font-size: 20px;
+    letter-spacing: 0.6px;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .login .boton-donar {
+    display: flex;
+    width: 294px;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    gap: 5.98px;
+    padding: 8.38px 16.76px 5.98px;
+    position: absolute;
+    top: 464px;
+    left: 810px;
+    background-color: var(--primary-colordark-blue);
+    border-radius: 34.11px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .login .click-here-3 {
+    margin-top: -0.63px;
+    font-family: "Abhaya Libre-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 24px;
+    position: relative;
+    width: fit-content;
+    color: var(--neutral-color00);
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .login .selecione-banco {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    height: 75px;
+    align-items: flex-start;
+    position: absolute;
+    top: 161px;
+    left: 764px;
+    transform: rotate(-0.03deg);
+  }
+  
+  .login .dropdown-box {
+    display: flex;
+    flex-direction: column;
+    width: 381.01px;
+    height: 98.78px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-bottom: -23.72px;
+    transform: rotate(0.03deg);
+  }
+  
+  .login .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 18px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-left: -1.3px;
+    margin-right: -1.3px;
+    z-index: 1;
+    background-color: var(--white);
+    border-radius: 8px;
+    border: 1.3px solid;
+    border-color: var(--bluesgray-2);
+  }
+  
+  .login .menu-label-4 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .login .menu-label-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: var(--drop-menu-menu-font-family);
+    font-weight: var(--drop-menu-menu-font-weight);
+    color: var(--black);
+    font-size: var(--drop-menu-menu-font-size);
+    letter-spacing: var(--drop-menu-menu-letter-spacing);
+    line-height: var(--drop-menu-menu-line-height);
+    white-space: nowrap;
+    font-style: var(--drop-menu-menu-font-style);
+  }
+  
+  .login .icons-regular {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .items-frame {
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .login .items-list {
+    display: flex;
+    flex-direction: column;
+    width: 381px;
+    height: 218px;
+    align-items: center;
+    justify-content: flex-end;
+    top: 1px;
+    background-color: var(--white);
+    border-radius: 0px 0px 8px 8px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .login .item-hover {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    z-index: 4;
+    background-color: var(--white);
+  }
+  
+  .login .label {
+    position: relative;
+    width: 45px;
+    height: 18px;
+  }
+  
+  .login .text-wrapper-5 {
+    position: absolute;
+    height: 18px;
+    top: -1px;
+    left: 0;
+    font-family: var(--drop-menu-menu-font-family);
+    font-weight: var(--drop-menu-menu-font-weight);
+    color: var(--black);
+    font-size: var(--drop-menu-menu-font-size);
+    letter-spacing: var(--drop-menu-menu-letter-spacing);
+    line-height: var(--drop-menu-menu-line-height);
+    white-space: nowrap;
+    font-style: var(--drop-menu-menu-font-style);
+  }
+  
+  .login .icons-regular-2 {
+    margin-bottom: -92.84px;
+    margin-left: -14385.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .item-hover-2 {
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .login .label-2 {
+    position: relative;
+    width: 49px;
+    height: 18px;
+  }
+  
+  .login .icons-regular-3 {
+    margin-bottom: -50.84px;
+    margin-left: -14389.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .item-hover-3 {
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .login .icons-regular-4 {
+    margin-bottom: -8.84px;
+    margin-left: -14389.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .item-hover-4 {
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .login .label-3 {
+    position: relative;
+    width: 50px;
+    height: 18px;
+  }
+  
+  .login .icons-regular-5 {
+    margin-top: -33.16px;
+    margin-left: -14390.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .item-hover-5 {
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--white);
+  }
+  
+  .login .icons-regular-6 {
+    margin-top: -75.16px;
+    margin-left: -14389.39px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .login .overlap-4 {
+    position: absolute;
+    width: 806px;
+    height: 846px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login .fondo {
+    position: absolute;
+    width: 448px;
+    height: 722px;
+    top: 62px;
+    left: 172px;
+    background-color: #f7dba7b2;
+    border-radius: 35px;
+    transform: rotate(-37.11deg);
+  }
+  
+  .login .line {
+    position: absolute;
+    width: 174px;
+    height: 5px;
+    top: 544px;
+    left: 605px;
+  }
+  
+  .login .text-wrapper-6 {
+    width: 96px;
+    height: 29px;
+    top: 451px;
+    left: 614px;
+    font-size: 25px;
+    position: absolute;
+    font-family: "Permanent Marker-Regular", Helvetica;
+    font-weight: 400;
+    color: #003459;
+    letter-spacing: 0;
+    line-height: 24px;
+  }
+  
+  .login .donaciones {
+    position: absolute;
+    width: 201px;
+    height: 27px;
+    top: 518px;
+    left: 605px;
+    font-family: "ABeeZee-Regular", Helvetica;
+    font-weight: 400;
+    color: #002a48;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
