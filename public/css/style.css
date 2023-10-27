@@ -166,11 +166,11 @@ li a.btn_menu{
 }
 
 .footer {
-    /* position: absolute; */
+    position: absolute;
     width: 1422px;
     height: 126px;
-    top: 1755px;
-    left: 10px;
+    top: 1850px;
+    left: 0px;
     background-color: transparent;
     border-radius: 23.94px 23.94px 23.9px 23.9px;
     overflow: hidden;
@@ -2954,7 +2954,7 @@ p {
     color: var(--white);
     font-family: var(--font-abhaya-libre-extrabold);
   }
-  .footer {
+  /* .footer {
     top: 1744.69px;
     left: 609px;
     border-radius: 23.94px 23.94px var(--br-4xl-9) var(--br-4xl-9);
@@ -2972,7 +2972,7 @@ p {
     font-size: var(--drop-menu-menu-size);
     color: var(--neutral-color-60);
     font-family: var(--font-abhaya-libre);
-  }
+  } */
   .footer,
   .group-inner,
   .i {
@@ -3623,7 +3623,7 @@ p {
     color: var(--white);
     font-family: var(--font-abhaya-libre-extrabold);
   }
-  .footer {
+  /* .footer {
     top: 1744.69px;
     left: 609px;
     border-radius: 23.94px 23.94px var(--br-4xl-9) var(--br-4xl-9);
@@ -3640,7 +3640,7 @@ p {
     font-size: var(--drop-menu-menu-size);
     color: var(--neutral-color-60);
     font-family: var(--font-abhaya-libre);
-  }
+  } */
   .group-child1,
   .group-child2,
   .rectangle-div {

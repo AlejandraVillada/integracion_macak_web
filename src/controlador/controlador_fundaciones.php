@@ -15,6 +15,12 @@ switch ($_GET['accion']) {
         echo json_encode(array('data' => $listado), JSON_UNESCAPED_UNICODE);
         break;
 
+    case 'listar_home':
+        $fundaciones = new fundaciones();
+        $listado = $fundaciones->lista_home();
+        echo json_encode(array('data' => $listado), JSON_UNESCAPED_UNICODE);
+        break;
+
 
     case 'editar':
         $fundacion = new fundaciones();

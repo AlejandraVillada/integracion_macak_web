@@ -34,6 +34,21 @@ class fundaciones extends ModeloConexionDB
         return  $result;
     }
 
+    public function lista_home()
+    {
+        $this->query = "
+			SELECT id, nit, nombre, descripcion, direccion, telefono,URL_imagen,
+            numero_cuenta, tipo_cuenta
+			FROM fundaciones
+            ORDER BY id
+            limit 3
+			";
+        $this->obtener_resultados_query();
+         $result = $this->rows; 
+       
+        return  $result;
+    }
+
     public function consultar($id = '')
     {
         if ($id != ''):
