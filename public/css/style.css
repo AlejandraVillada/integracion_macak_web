@@ -27,13 +27,26 @@
     --breakpoint-md: 768px;
     --breakpoint-lg: 992px;
     --breakpoint-xl: 1200px;
-    --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji","Permanent Marker-Regular";
+    --font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji", "Permanent Marker-Regular";
     --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 @font-face {
     font-family: "Permanent Marker-Regular";
     src: url(../../src/utils/permanent-marker-regular.ttf);
+}
+
+.card-fundacion-home .view-fund {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.view-fund img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 body {
@@ -44,9 +57,9 @@ body {
     font-weight: initial;
 }
 
-li a.btn_menu{
- color:#002a48 !important;
- font-family: "ABeeZee-Italic", Helvetica;
+li a.btn_menu {
+    color: #002a48 !important;
+    font-family: "ABeeZee-Italic", Helvetica;
 }
 
 .bg-secondary-plantilla {
@@ -175,10 +188,7 @@ li a.btn_menu{
     border-radius: 23.94px 23.94px 23.9px 23.9px;
     overflow: hidden;
     transform: rotate(-0.03deg);
-    background: linear-gradient(180deg,
-            rgb(251.81, 238.23, 212.99) 6.17%,
-            rgb(251.81, 238.23, 212.99) 75.14%,
-            rgb(255, 230.83, 185.94) 100%);
+    background: linear-gradient(180deg, rgb(251.81, 238.23, 212.99) 6.17%, rgb(251.81, 238.23, 212.99) 75.14%, rgb(255, 230.83, 185.94) 100%);
 }
 
 .derechos-reservados {
@@ -324,7 +334,7 @@ li a.btn_menu{
     line-height: 30px;
 }
 
-#brand{
+#brand {
     background-image: url("https://c.animaapp.com/SKPIC6Mj/img/rectangle-9.svg");
 }
 
@@ -1478,10 +1488,7 @@ li a.btn_menu{
     border-radius: 23.9px 23.9px 23.94px 23.94px;
     overflow: hidden;
     transform: rotate(-0.03deg);
-    background: linear-gradient(180deg,
-            rgb(251.81, 238.23, 212.99) 6.17%,
-            rgb(251.81, 238.23, 212.99) 75.14%,
-            rgb(255, 230.83, 185.94) 100%);
+    background: linear-gradient(180deg, rgb(251.81, 238.23, 212.99) 6.17%, rgb(251.81, 238.23, 212.99) 75.14%, rgb(255, 230.83, 185.94) 100%);
 }
 
 .home .overlap-8 {
@@ -1766,7 +1773,6 @@ li a.btn_menu{
     text-align: center;
     letter-spacing: 0;
     line-height: 13.8px;
-
 }
 
 p {
@@ -1779,32 +1785,32 @@ p {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-  }
-  
-  .donaciones .overlap-wrapper {
+}
+
+.donaciones .overlap-wrapper {
     background-color: #ffffff;
     overflow: hidden;
     width: 1440px;
     height: 1887.14px;
-  }
-  
-  .donaciones .overlap {
+}
+
+.donaciones .overlap {
     position: relative;
     width: 2568px;
     height: 2349px;
     top: -500px;
     left: -594px;
-  }
-  
-  .donaciones .overlap-group {
+}
+
+.donaciones .overlap-group {
     position: absolute;
     width: 640px;
     height: 42px;
     top: 1px;
     left: 0;
-  }
-  
-  .donaciones .navbar {
+}
+
+.donaciones .navbar {
     display: flex;
     width: 576px;
     height: 24px;
@@ -1813,9 +1819,9 @@ p {
     position: absolute;
     top: 12px;
     left: 0;
-  }
-  
-  .donaciones .text-wrapper {
+}
+
+.donaciones .text-wrapper {
     position: relative;
     width: fit-content;
     margin-top: -0.6px;
@@ -1827,9 +1833,9 @@ p {
     letter-spacing: 0;
     line-height: 14.4px;
     white-space: nowrap;
-  }
-  
-  .donaciones .registrate {
+}
+
+.donaciones .registrate {
     display: flex;
     width: 135px;
     height: 42px;
@@ -1842,9 +1848,9 @@ p {
     left: 504px;
     background-color: var(--primary-colordark-blue);
     border-radius: 34.11px;
-  }
-  
-  .donaciones .click-here {
+}
+
+.donaciones .click-here {
     position: relative;
     width: fit-content;
     font-family: "Abhaya Libre-Bold", Helvetica;
@@ -1854,9 +1860,9 @@ p {
     letter-spacing: 0;
     line-height: 24px;
     white-space: nowrap;
-  }
-  
-  .donaciones .login {
+}
+
+.donaciones .login {
     display: flex;
     width: 135px;
     height: 42px;
@@ -1869,33 +1875,33 @@ p {
     left: 655px;
     background-color: var(--primary-colordark-blue);
     border-radius: 34.11px;
-  }
-  
-  .donaciones .group {
+}
+
+.donaciones .group {
     position: absolute;
     width: 2568px;
     height: 2349px;
     top: 0;
     left: 0;
-  }
-  
-  .donaciones .div {
+}
+
+.donaciones .div {
     position: relative;
     width: 2525px;
     height: 2384px;
     top: -35px;
     left: 39px;
-  }
-  
-  .donaciones .overlap-2 {
+}
+
+.donaciones .overlap-2 {
     position: absolute;
     width: 2210px;
     height: 1769px;
     top: 615px;
     left: 315px;
-  }
-  
-  .donaciones .rectangle {
+}
+
+.donaciones .rectangle {
     position: absolute;
     width: 2070px;
     height: 820px;
@@ -1904,9 +1910,9 @@ p {
     background-color: #003459cc;
     border-radius: 35px;
     transform: rotate(-28.5deg);
-  }
-  
-  .donaciones .banner {
+}
+
+.donaciones .banner {
     position: absolute;
     width: 1159px;
     height: 1574px;
@@ -1915,17 +1921,17 @@ p {
     background-color: #003459;
     border-radius: 15.35px;
     overflow: hidden;
-  }
-  
-  .donaciones .overlap-group-2 {
+}
+
+.donaciones .overlap-group-2 {
     position: relative;
     width: 1708px;
     height: 2535px;
     top: -231px;
     left: -366px;
-  }
-  
-  .donaciones .rectangle-2 {
+}
+
+.donaciones .rectangle-2 {
     position: absolute;
     width: 1322px;
     height: 774px;
@@ -1934,9 +1940,9 @@ p {
     background-color: var(--primary-colordark-blue-80);
     border-radius: 75.99px;
     transform: rotate(28.25deg);
-  }
-  
-  .donaciones .rectangle-3 {
+}
+
+.donaciones .rectangle-3 {
     position: absolute;
     width: 1348px;
     height: 1050px;
@@ -1945,31 +1951,31 @@ p {
     background-color: #fceed5;
     border-radius: 57.57px;
     transform: rotate(11.41deg);
-  }
-  
-  .donaciones .horizontal-shot {
+}
+
+.donaciones .horizontal-shot {
     position: absolute;
     width: 839px;
     height: 799px;
     top: 1006px;
     left: 526px;
     object-fit: cover;
-  }
-  
-  .donaciones .formulario-de {
+}
+
+.donaciones .formulario-de {
     position: absolute;
     width: 689px;
     height: 578px;
     top: 54px;
     left: 609px;
-  }
-  
-  .donaciones .overlap-3 {
+}
+
+.donaciones .overlap-3 {
     position: relative;
     height: 578px;
-  }
-  
-  .donaciones .fondo-donaciones {
+}
+
+.donaciones .fondo-donaciones {
     position: absolute;
     width: 687px;
     height: 576px;
@@ -1978,9 +1984,9 @@ p {
     background-color: #ffffffe6;
     border-radius: 59.25px;
     transform: rotate(0.2deg);
-  }
-  
-  .donaciones .rectangle-4 {
+}
+
+.donaciones .rectangle-4 {
     position: absolute;
     width: 340px;
     height: 37px;
@@ -1990,9 +1996,9 @@ p {
     border-radius: 8px;
     border: 1px solid;
     border-color: #000000;
-  }
-  
-  .donaciones .cantidad-a-donar {
+}
+
+.donaciones .cantidad-a-donar {
     display: flex;
     width: 260px;
     height: 27px;
@@ -2002,9 +2008,9 @@ p {
     position: absolute;
     top: 206px;
     left: 168px;
-  }
-  
-  .donaciones .menu-label {
+}
+
+.donaciones .menu-label {
     position: relative;
     width: fit-content;
     margin-left: -18.4px;
@@ -2016,9 +2022,9 @@ p {
     letter-spacing: 0.6px;
     line-height: 18px;
     white-space: nowrap;
-  }
-  
-  .donaciones .menu-label-wrapper {
+}
+
+.donaciones .menu-label-wrapper {
     width: 260px;
     height: 27px;
     top: 93px;
@@ -2028,9 +2034,9 @@ p {
     justify-content: center;
     gap: 10px;
     position: absolute;
-  }
-  
-  .donaciones .menu-label-2 {
+}
+
+.donaciones .menu-label-2 {
     position: relative;
     width: fit-content;
     font-family: "Poppins-Medium", Helvetica;
@@ -2040,9 +2046,9 @@ p {
     letter-spacing: 0.6px;
     line-height: 18px;
     white-space: nowrap;
-  }
-  
-  .donaciones .div-wrapper {
+}
+
+.donaciones .div-wrapper {
     width: 82px;
     height: 21px;
     top: 297px;
@@ -2052,9 +2058,9 @@ p {
     justify-content: center;
     gap: 10px;
     position: absolute;
-  }
-  
-  .donaciones .boton-donar {
+}
+
+.donaciones .boton-donar {
     display: flex;
     width: 294px;
     height: 38px;
@@ -2068,9 +2074,9 @@ p {
     background-color: var(--primary-colordark-blue);
     border-radius: 34.11px;
     transform: rotate(-0.03deg);
-  }
-  
-  .donaciones .click-here-2 {
+}
+
+.donaciones .click-here-2 {
     margin-top: -0.63px;
     font-family: "Abhaya Libre-Bold", Helvetica;
     font-weight: 700;
@@ -2081,9 +2087,9 @@ p {
     color: var(--neutral-color00);
     letter-spacing: 0;
     white-space: nowrap;
-  }
-  
-  .donaciones .selecione-banco {
+}
+
+.donaciones .selecione-banco {
     display: flex;
     flex-direction: column;
     width: 472px;
@@ -2093,9 +2099,9 @@ p {
     top: 107px;
     left: 169px;
     transform: rotate(-0.03deg);
-  }
-  
-  .donaciones .dropdown-box {
+}
+
+.donaciones .dropdown-box {
     display: flex;
     flex-direction: column;
     width: 381.01px;
@@ -2105,9 +2111,9 @@ p {
     position: relative;
     margin-bottom: -23.72px;
     transform: rotate(0.03deg);
-  }
-  
-  .donaciones .header {
+}
+
+.donaciones .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2123,18 +2129,18 @@ p {
     border-radius: 8px;
     border: 1.3px solid;
     border-color: var(--bluesgray-2);
-  }
-  
-  .donaciones .menu-label-3 {
+}
+
+.donaciones .menu-label-3 {
     display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
     position: relative;
     flex: 0 0 auto;
-  }
-  
-  .donaciones .menu-label-4 {
+}
+
+.donaciones .menu-label-4 {
     position: relative;
     width: fit-content;
     margin-top: -1px;
@@ -2146,24 +2152,24 @@ p {
     line-height: var(--drop-menu-menu-line-height);
     white-space: nowrap;
     font-style: var(--drop-menu-menu-font-style);
-  }
-  
-  .donaciones .icons-regular {
+}
+
+.donaciones .icons-regular {
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .items-frame {
+}
+
+.donaciones .items-frame {
     align-self: stretch;
     width: 100%;
     height: 1px;
     z-index: 0;
     position: relative;
     overflow: hidden;
-  }
-  
-  .donaciones .items-list {
+}
+
+.donaciones .items-list {
     display: flex;
     flex-direction: column;
     width: 381px;
@@ -2175,9 +2181,9 @@ p {
     border-radius: 0px 0px 8px 8px;
     position: relative;
     overflow: hidden;
-  }
-  
-  .donaciones .item-hover {
+}
+
+.donaciones .item-hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -2188,15 +2194,15 @@ p {
     flex: 0 0 auto;
     z-index: 4;
     background-color: var(--white);
-  }
-  
-  .donaciones .label {
+}
+
+.donaciones .label {
     position: relative;
     width: 45px;
     height: 18px;
-  }
-  
-  .donaciones .text-wrapper-2 {
+}
+
+.donaciones .text-wrapper-2 {
     position: absolute;
     height: 18px;
     top: -1px;
@@ -2209,17 +2215,17 @@ p {
     line-height: var(--drop-menu-menu-line-height);
     white-space: nowrap;
     font-style: var(--drop-menu-menu-font-style);
-  }
-  
-  .donaciones .img {
+}
+
+.donaciones .img {
     margin-bottom: -93.37px;
     margin-left: -11453.39px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .item-hover-2 {
+}
+
+.donaciones .item-hover-2 {
     z-index: 3;
     display: flex;
     align-items: center;
@@ -2230,23 +2236,23 @@ p {
     width: 100%;
     flex: 0 0 auto;
     background-color: var(--white);
-  }
-  
-  .donaciones .label-2 {
+}
+
+.donaciones .label-2 {
     position: relative;
     width: 49px;
     height: 18px;
-  }
-  
-  .donaciones .icons-regular-2 {
+}
+
+.donaciones .icons-regular-2 {
     margin-bottom: -51.37px;
     margin-left: -11457.39px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .item-hover-3 {
+}
+
+.donaciones .item-hover-3 {
     z-index: 2;
     display: flex;
     align-items: center;
@@ -2257,17 +2263,17 @@ p {
     width: 100%;
     flex: 0 0 auto;
     background-color: var(--white);
-  }
-  
-  .donaciones .icons-regular-3 {
+}
+
+.donaciones .icons-regular-3 {
     margin-bottom: -9.37px;
     margin-left: -11457.39px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .item-hover-4 {
+}
+
+.donaciones .item-hover-4 {
     z-index: 1;
     display: flex;
     align-items: center;
@@ -2278,23 +2284,23 @@ p {
     width: 100%;
     flex: 0 0 auto;
     background-color: var(--white);
-  }
-  
-  .donaciones .label-3 {
+}
+
+.donaciones .label-3 {
     position: relative;
     width: 50px;
     height: 18px;
-  }
-  
-  .donaciones .icons-regular-4 {
+}
+
+.donaciones .icons-regular-4 {
     margin-top: -32.63px;
     margin-left: -11458.39px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .item-hover-5 {
+}
+
+.donaciones .item-hover-5 {
     z-index: 0;
     display: flex;
     align-items: center;
@@ -2305,17 +2311,17 @@ p {
     width: 100%;
     flex: 0 0 auto;
     background-color: var(--white);
-  }
-  
-  .donaciones .icons-regular-5 {
+}
+
+.donaciones .icons-regular-5 {
     margin-top: -74.63px;
     margin-left: -11457.39px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .fundacin-a-donar {
+}
+
+.donaciones .fundacin-a-donar {
     display: flex;
     flex-direction: column;
     width: 284px;
@@ -2325,9 +2331,9 @@ p {
     top: 301px;
     left: 168px;
     transform: rotate(-0.03deg);
-  }
-  
-  .donaciones .dropdown-box-2 {
+}
+
+.donaciones .dropdown-box-2 {
     display: flex;
     flex-direction: column;
     width: 381.01px;
@@ -2338,57 +2344,57 @@ p {
     margin-bottom: -54.21px;
     margin-right: -97.13px;
     transform: rotate(0.03deg);
-  }
-  
-  .donaciones .icons-regular-6 {
+}
+
+.donaciones .icons-regular-6 {
     margin-top: -100.89px;
     margin-left: -11451.5px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .icons-regular-7 {
+}
+
+.donaciones .icons-regular-7 {
     margin-top: -142.89px;
     margin-left: -11455.5px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .icons-regular-8 {
+}
+
+.donaciones .icons-regular-8 {
     margin-top: -184.89px;
     margin-left: -11455.5px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .icons-regular-9 {
+}
+
+.donaciones .icons-regular-9 {
     margin-top: -226.89px;
     margin-left: -11456.5px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .icons-regular-10 {
+}
+
+.donaciones .icons-regular-10 {
     margin-top: -268.89px;
     margin-left: -11455.5px;
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  
-  .donaciones .overlap-4 {
+}
+
+.donaciones .overlap-4 {
     position: absolute;
     width: 806px;
     height: 846px;
     top: 0;
     left: 0;
-  }
-  
-  .donaciones .fondo {
+}
+
+.donaciones .fondo {
     position: absolute;
     width: 448px;
     height: 722px;
@@ -2397,17 +2403,17 @@ p {
     background-color: #f7dba7b2;
     border-radius: 35px;
     transform: rotate(-37.11deg);
-  }
-  
-  .donaciones .line {
+}
+
+.donaciones .line {
     position: absolute;
     width: 162px;
     height: 5px;
     top: 544px;
     left: 605px;
-  }
-  
-  .donaciones .text-wrapper-3 {
+}
+
+.donaciones .text-wrapper-3 {
     position: absolute;
     width: 96px;
     height: 29px;
@@ -2419,9 +2425,9 @@ p {
     font-size: 25px;
     letter-spacing: 0;
     line-height: 24px;
-  }
-  
-  .donaciones .text-wrapper-4 {
+}
+
+.donaciones .text-wrapper-4 {
     position: absolute;
     width: 201px;
     height: 27px;
@@ -2434,9 +2440,9 @@ p {
     letter-spacing: 0;
     line-height: normal;
     white-space: nowrap;
-  }
-  
-  .donaciones .footer {
+}
+
+.donaciones .footer {
     position: absolute;
     width: 1422px;
     height: 126px;
@@ -2446,23 +2452,18 @@ p {
     border-radius: 23.94px 23.94px 23.9px 23.9px;
     overflow: hidden;
     transform: rotate(-0.03deg);
-    background: linear-gradient(
-      180deg,
-      rgb(251.81, 238.23, 212.99) 6.17%,
-      rgb(251.81, 238.23, 212.99) 75.14%,
-      rgb(255, 230.83, 185.94) 100%
-    );
-  }
-  
-  .donaciones .derechos-reservados {
+    background: linear-gradient( 180deg, rgb(251.81, 238.23, 212.99) 6.17%, rgb(251.81, 238.23, 212.99) 75.14%, rgb(255, 230.83, 185.94) 100%);
+}
+
+.donaciones .derechos-reservados {
     position: absolute;
     width: 706px;
     height: 67px;
     top: 133px;
     left: 371px;
-  }
-  
-  .donaciones .p {
+}
+
+.donaciones .p {
     position: absolute;
     top: -32px;
     left: 0;
@@ -2473,9 +2474,9 @@ p {
     letter-spacing: 0;
     line-height: 18px;
     white-space: nowrap;
-  }
-  
-  .donaciones .terms-of-service {
+}
+
+.donaciones .terms-of-service {
     position: absolute;
     top: -31px;
     left: 570px;
@@ -2486,17 +2487,17 @@ p {
     letter-spacing: 0;
     line-height: 18px;
     white-space: nowrap;
-  }
-  
-  .donaciones .overlap-5 {
+}
+
+.donaciones .overlap-5 {
     position: absolute;
     width: 1365px;
     height: 86px;
     top: 35px;
     left: 25px;
-  }
-  
-  .donaciones .redes-sociales {
+}
+
+.donaciones .redes-sociales {
     display: flex;
     width: 176px;
     height: 23px;
@@ -2506,24 +2507,24 @@ p {
     top: 63px;
     left: 625px;
     transform: rotate(0.03deg);
-  }
-  
-  .donaciones .img-2 {
+}
+
+.donaciones .img-2 {
     position: relative;
     width: 24px;
     height: 24px;
     margin-bottom: -1px;
-  }
-  
-  .donaciones .youtube-negative {
+}
+
+.donaciones .youtube-negative {
     position: relative;
     width: 24px;
     height: 24px;
     margin-bottom: -1px;
     margin-right: -10.66px;
-  }
-  
-  .donaciones .frame {
+}
+
+.donaciones .frame {
     position: absolute;
     width: 1365px;
     height: 77px;
@@ -2533,9 +2534,9 @@ p {
     border-bottom-style: solid;
     border-color: var(--neutral-color20);
     transform: rotate(0.03deg);
-  }
-  
-  .donaciones .frame-2 {
+}
+
+.donaciones .frame-2 {
     display: flex;
     width: 1385px;
     height: 82px;
@@ -2547,9 +2548,9 @@ p {
     left: -9px;
     background-color: var(--primary-colordark-blue);
     border-radius: 12.09px;
-  }
-  
-  .donaciones .text-wrapper-5 {
+}
+
+.donaciones .text-wrapper-5 {
     position: relative;
     width: 521px;
     height: 84px;
@@ -2561,9 +2562,9 @@ p {
     font-size: 25px;
     letter-spacing: 0;
     line-height: 30px;
-  }
-  
-  .donaciones .suscribete {
+}
+
+.donaciones .suscribete {
     display: flex;
     width: 738px;
     height: 55px;
@@ -2575,9 +2576,9 @@ p {
     left: 601px;
     background-color: #ffffff;
     border-radius: 10.58px;
-  }
-  
-  .donaciones .input {
+}
+
+.donaciones .input {
     width: 604px;
     height: 31px;
     padding: 10.58px 21.15px;
@@ -2595,9 +2596,9 @@ p {
     font-size: 15px;
     letter-spacing: 0;
     line-height: 30px;
-  }
-  
-  .donaciones .button-l {
+}
+
+.donaciones .button-l {
     display: flex;
     width: 95px;
     height: 39px;
@@ -2610,9 +2611,9 @@ p {
     margin-bottom: -1.07px;
     background-color: var(--primary-colordark-blue);
     border-radius: 6.04px;
-  }
-  
-  .donaciones .click-here-3 {
+}
+
+.donaciones .click-here-3 {
     margin-top: -5.32px;
     margin-bottom: -3.81px;
     font-family: "Abel-Regular", Helvetica;
@@ -2624,15 +2625,17 @@ p {
     color: var(--neutral-color00);
     letter-spacing: 0;
     white-space: nowrap;
-  }
+}
 
-  /* login estilos */
 
-  .inicio {
+/* login estilos */
+
+.inicio {
     position: relative;
     line-height: 14.36px;
-  }
-  .inicio-parent {
+}
+
+.inicio-parent {
     position: absolute;
     top: 13.94px;
     left: 0.01px;
@@ -2648,12 +2651,14 @@ p {
     font-size: var(--drop-menu-menu-size);
     color: var(--primary-color-dark-blue);
     font-family: var(--font-abeezee);
-  }
-  .click-here {
+}
+
+.click-here {
     position: relative;
     line-height: 24px;
-  }
-  .registrate {
+}
+
+.registrate {
     top: 1.24px;
     left: 504.2px;
     border-radius: 34.11px;
@@ -2666,17 +2671,19 @@ p {
     justify-content: center;
     padding: 8.378686904907227px 16.757373809814453px 5.984776496887207px;
     box-sizing: border-box;
-  }
-  .fondo-4,
-  .group-child,
-  .login1,
-  .nav,
-  .registrate {
+}
+
+.fondo-4,
+.group-child,
+.login1,
+.nav,
+.registrate {
     position: absolute;
     transform: rotate(-0.03deg);
     transform-origin: 0 0;
-  }
-  .login1 {
+}
+
+.login1 {
     top: -0.32px;
     left: 654.97px;
     border-radius: 34.11px;
@@ -2689,17 +2696,19 @@ p {
     justify-content: center;
     padding: 8.378686904907227px 16.757373809814453px 5.984776496887207px;
     box-sizing: border-box;
-  }
-  .fondo-4,
-  .group-child,
-  .nav {
+}
+
+.fondo-4,
+.group-child,
+.nav {
     top: 17.97px;
     left: 589.66px;
     width: 790.33px;
     height: 43.08px;
-  }
-  .fondo-4,
-  .group-child {
+}
+
+.fondo-4,
+.group-child {
     top: 1627.66px;
     left: 354px;
     border-radius: var(--br-16xl);
@@ -2707,28 +2716,32 @@ p {
     width: 2069.93px;
     height: 820.23px;
     transform: rotate(-28.5deg);
-  }
-  .fondo-4 {
+}
+
+.fondo-4 {
     top: 270.25px;
     left: 0;
     background-color: rgba(247, 219, 167, 0.7);
     width: 447.95px;
     height: 721.62px;
     transform: rotate(-37.11deg);
-  }
-  .group-item {
+}
+
+.group-item {
     position: absolute;
     top: 509.48px;
     left: 644.5px;
     width: 174px;
     height: 5.37px;
-  }
-  .donaciones1,
-  .macak {
+}
+
+.donaciones1,
+.macak {
     position: absolute;
     display: flex;
-  }
-  .macak {
+}
+
+.macak {
     top: 416.52px;
     left: 653px;
     font-size: var(--font-size-6xl);
@@ -2738,8 +2751,9 @@ p {
     align-items: flex-end;
     width: 96px;
     height: 29.35px;
-  }
-  .donaciones1 {
+}
+
+.donaciones1 {
     top: 482.99px;
     left: 644px;
     font-size: 30px;
@@ -2748,13 +2762,15 @@ p {
     align-items: center;
     width: 201px;
     height: 26.76px;
-  }
-  .banner-child,
-  .banner-item {
+}
+
+.banner-child,
+.banner-item {
     position: absolute;
     transform-origin: 0 0;
-  }
-  .banner-child {
+}
+
+.banner-child {
     top: 997px;
     left: 0;
     border-radius: 75.99px;
@@ -2762,8 +2778,9 @@ p {
     width: 1321.56px;
     height: 773.69px;
     transform: rotate(28.25deg);
-  }
-  .banner-item {
+}
+
+.banner-item {
     top: -230.77px;
     left: 19.75px;
     border-radius: 57.57px;
@@ -2771,16 +2788,18 @@ p {
     width: 1348.17px;
     height: 1049.7px;
     transform: rotate(11.41deg);
-  }
-  .adorable-perro-basenji-marron-icon {
+}
+
+.adorable-perro-basenji-marron-icon {
     position: absolute;
     top: 583px;
     left: 0;
     width: 833px;
     height: 576px;
     object-fit: cover;
-  }
-  .banner {
+}
+
+.banner {
     position: absolute;
     top: 580px;
     left: 743px;
@@ -2789,8 +2808,9 @@ p {
     width: 1159px;
     height: 1206px;
     overflow: hidden;
-  }
-  .fondo-donaciones {
+}
+
+.fondo-donaciones {
     position: absolute;
     top: 634px;
     left: 964.92px;
@@ -2800,8 +2820,9 @@ p {
     height: 575.66px;
     transform: rotate(0.2deg);
     transform-origin: 0 0;
-  }
-  .macak1 {
+}
+
+.macak1 {
     position: absolute;
     top: 668px;
     left: 1223px;
@@ -2813,33 +2834,38 @@ p {
     align-items: flex-end;
     width: 193px;
     height: 34px;
-  }
-  .macak-all-rights,
-  .terms-of-service {
+}
+
+.macak-all-rights,
+.terms-of-service {
     position: absolute;
     top: -31.02px;
     left: 0.02px;
     line-height: 18px;
-  }
-  .terms-of-service {
+}
+
+.terms-of-service {
     top: -30.02px;
     left: 570.37px;
-  }
-  .derechos-reservados {
+}
+
+.derechos-reservados {
     position: absolute;
     top: 133.38px;
     left: 370.96px;
     width: 706.2px;
     height: 67.24px;
-  }
-  .facebook-negative {
+}
+
+.facebook-negative {
     position: relative;
     width: 24px;
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
-  }
-  .redes-sociales {
+}
+
+.redes-sociales {
     position: absolute;
     top: 97.51px;
     left: 649.99px;
@@ -2852,8 +2878,9 @@ p {
     gap: 30.22px;
     transform: rotate(0.03deg);
     transform-origin: 0 0;
-  }
-  .regstrate-ahora-para {
+}
+
+.regstrate-ahora-para {
     position: relative;
     line-height: 30px;
     display: inline-block;
@@ -2861,13 +2888,15 @@ p {
     height: 84px;
     flex-shrink: 0;
     z-index: 0;
-  }
-  .type-something-here {
+}
+
+.type-something-here {
     flex: 1;
     position: relative;
     line-height: 30px;
-  }
-  .input {
+}
+
+.input {
     border-radius: 6.04px;
     background-color: var(--white);
     border: 0.8px solid var(--neutral-color-40);
@@ -2879,12 +2908,14 @@ p {
     align-items: center;
     justify-content: flex-start;
     padding: 10.576667785644531px 21.153335571289062px;
-  }
-  .click-here2 {
+}
+
+.click-here2 {
     position: relative;
     line-height: 30px;
-  }
-  .button-l {
+}
+
+.button-l {
     border-radius: 6.04px;
     background-color: var(--primary-color-dark-blue);
     width: 95px;
@@ -2898,16 +2929,18 @@ p {
     font-size: 12.09px;
     color: var(--neutral-color-00);
     font-family: var(--font-abel);
-  }
-  .frame,
-  .frame-wrapper,
-  .suscribete {
+}
+
+.frame,
+.frame-wrapper,
+.suscribete {
     position: absolute;
     box-sizing: border-box;
     display: flex;
     justify-content: flex-start;
-  }
-  .suscribete {
+}
+
+.suscribete {
     margin: 0 !important;
     top: 14px;
     left: 601px;
@@ -2922,12 +2955,14 @@ p {
     z-index: 1;
     font-size: var(--font-size-mini);
     color: var(--neutral-color-40);
-  }
-  .frame,
-  .frame-wrapper {
+}
+
+.frame,
+.frame-wrapper {
     align-items: flex-start;
-  }
-  .frame {
+}
+
+.frame {
     margin: 0 !important;
     top: -22px;
     left: -9px;
@@ -2939,8 +2974,9 @@ p {
     padding: 24.175241470336914px;
     gap: 15.11px;
     z-index: 0;
-  }
-  .frame-wrapper {
+}
+
+.frame-wrapper {
     top: 35px;
     left: 24.98px;
     border-bottom: 0.8px solid var(--neutral-color-20);
@@ -2953,8 +2989,10 @@ p {
     font-size: var(--font-size-6xl);
     color: var(--white);
     font-family: var(--font-abhaya-libre-extrabold);
-  }
-  /* .footer {
+}
+
+
+/* .footer {
     top: 1744.69px;
     left: 609px;
     border-radius: 23.94px 23.94px var(--br-4xl-9) var(--br-4xl-9);
@@ -2973,20 +3011,23 @@ p {
     color: var(--neutral-color-60);
     font-family: var(--font-abhaya-libre);
   } */
-  .footer,
-  .group-inner,
-  .i {
+
+.footer,
+.group-inner,
+.i {
     position: absolute;
-  }
-  .group-inner {
+}
+
+.group-inner {
     top: 0;
     left: 0;
     border-radius: 50%;
     background-color: var(--color-darkslategray-100);
     width: 15px;
     height: 15px;
-  }
-  .i {
+}
+
+.i {
     top: 2px;
     left: 6px;
     letter-spacing: 0.03em;
@@ -2996,8 +3037,9 @@ p {
     align-items: center;
     width: 4px;
     height: 12px;
-  }
-  .ellipse-parent {
+}
+
+.ellipse-parent {
     position: absolute;
     top: 999px;
     left: 1125px;
@@ -3005,9 +3047,10 @@ p {
     height: 15px;
     font-size: var(--drop-menu-menu-size);
     color: var(--white);
-  }
-  .group-child1,
-  .rectangle-div {
+}
+
+.group-child1,
+.rectangle-div {
     position: absolute;
     top: 869.53px;
     left: 1117px;
@@ -3017,18 +3060,21 @@ p {
     box-sizing: border-box;
     width: 382px;
     height: 37px;
-  }
-  .group-child1 {
+}
+
+.group-child1 {
     top: 948.53px;
-  }
-  .menu-label {
+}
+
+.menu-label {
     position: relative;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
     display: none;
-  }
-  .cantidad-a-donar {
+}
+
+.cantidad-a-donar {
     position: absolute;
     top: 840.19px;
     left: 1131.46px;
@@ -3038,14 +3084,16 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .menu-label1 {
+}
+
+.menu-label1 {
     position: relative;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
-  }
-  .cantidad-a-donar1 {
+}
+
+.cantidad-a-donar1 {
     position: absolute;
     top: 728px;
     left: 1172px;
@@ -3055,39 +3103,44 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .cantidad-a-donar2 {
+}
+
+.cantidad-a-donar2 {
     top: 838.53px;
     left: 1118px;
     width: 82px;
     height: 21.13px;
-  }
-  .boton-donar,
-  .cantidad-a-donar2,
-  .cantidad-a-donar3,
-  .cantidad-a-donar4 {
+}
+
+.boton-donar,
+.cantidad-a-donar2,
+.cantidad-a-donar3,
+.cantidad-a-donar4 {
     position: absolute;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .cantidad-a-donar3 {
+}
+
+.cantidad-a-donar3 {
     top: 995px;
     left: 1147px;
     width: 181px;
     height: 23px;
     font-size: var(--font-size-mini);
     color: var(--color-darkslategray-100);
-  }
-  .boton-donar,
-  .cantidad-a-donar4 {
+}
+
+.boton-donar,
+.cantidad-a-donar4 {
     top: 925.53px;
     left: 1140px;
     width: 82px;
     height: 21.13px;
-  }
-  .boton-donar {
+}
+
+.boton-donar {
     top: 1044.14px;
     left: 1164px;
     border-radius: 34.11px;
@@ -3101,48 +3154,56 @@ p {
     font-size: 26px;
     color: var(--neutral-color-00);
     font-family: var(--font-abhaya-libre);
-  }
-  .iconsregularplus {
+}
+
+.iconsregularplus {
     position: relative;
     width: 20px;
     height: 20px;
     display: none;
-  }
-  .menu-label5 {
+}
+
+.menu-label5 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .label11 {
+}
+
+.label11 {
     position: absolute;
     top: 0;
     left: 0;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
-  }
-  .label1,
-  .label2,
-  .label4 {
+}
+
+.label1,
+.label2,
+.label4 {
     position: relative;
     width: 45px;
     height: 18px;
     display: none;
-  }
-  .label2,
-  .label4 {
+}
+
+.label2,
+.label4 {
     width: 49px;
-  }
-  .label4 {
+}
+
+.label4 {
     width: 50px;
-  }
-  .iconsregularchevron-down-s {
+}
+
+.iconsregularchevron-down-s {
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  .header {
+}
+
+.header {
     align-self: stretch;
     border-radius: var(--br-5xs);
     background-color: var(--white);
@@ -3153,19 +3214,22 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-lg);
     z-index: 1;
-  }
-  .label12 {
+}
+
+.label12 {
     position: relative;
     width: 45px;
     height: 18px;
-  }
-  .iconsregularchevron-down-s1 {
+}
+
+.iconsregularchevron-down-s1 {
     position: relative;
     width: 20px;
     height: 20px;
     opacity: 0;
-  }
-  .item-hover {
+}
+
+.item-hover {
     align-self: stretch;
     background-color: var(--white);
     display: flex;
@@ -3174,14 +3238,16 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 4;
-  }
-  .label24 {
+}
+
+.label24 {
     position: relative;
     width: 49px;
     height: 18px;
-  }
-  .item-hover1,
-  .item-hover2 {
+}
+
+.item-hover1,
+.item-hover2 {
     align-self: stretch;
     background-color: var(--white);
     display: flex;
@@ -3190,37 +3256,43 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 3;
-  }
-  .item-hover2 {
+}
+
+.item-hover2 {
     z-index: 2;
-  }
-  .label48 {
+}
+
+.label48 {
     position: relative;
     width: 50px;
     height: 18px;
-  }
-  .item-hover3 {
+}
+
+.item-hover3 {
     align-self: stretch;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 1;
-  }
-  .item-hover3,
-  .item-hover4,
-  .items-list {
+}
+
+.item-hover3,
+.item-hover4,
+.items-list {
     background-color: var(--white);
     display: flex;
     align-items: center;
-  }
-  .item-hover4 {
+}
+
+.item-hover4 {
     align-self: stretch;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 0;
-  }
-  .items-list {
+}
+
+.items-list {
     position: absolute;
     width: 100%;
     right: 0;
@@ -3231,17 +3303,19 @@ p {
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-end;
-  }
-  .items-frame {
+}
+
+.items-frame {
     align-self: stretch;
     position: relative;
     height: 1px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
-  }
-  .dropdown-box,
-  .selecione-banco {
+}
+
+.dropdown-box,
+.selecione-banco {
     width: 381.01px;
     height: 98.78px;
     display: flex;
@@ -3250,8 +3324,9 @@ p {
     justify-content: center;
     transform: rotate(0.03deg);
     transform-origin: 0 0;
-  }
-  .selecione-banco {
+}
+
+.selecione-banco {
     position: absolute;
     top: 741.23px;
     left: 1118.35px;
@@ -3261,8 +3336,9 @@ p {
     justify-content: flex-start;
     transform: rotate(-0.03deg);
     font-size: var(--drop-menu-menu-size);
-  }
-  .rectangle-parent {
+}
+
+.rectangle-parent {
     position: absolute;
     top: -400px;
     left: -594px;
@@ -3271,8 +3347,9 @@ p {
     font-size: var(--font-size-xl);
     color: var(--black);
     font-family: var(--drop-menu-menu);
-  }
-  .login {
+}
+
+.login {
     position: relative;
     background-color: var(--white);
     width: 100%;
@@ -3282,15 +3359,17 @@ p {
     font-size: var(--body-16px-medium-size);
     color: var(--neutral-color-00);
     font-family: var(--font-abhaya-libre);
-  }
+}
 
-  /* Estilo de registro */
 
-  .inicio {
+/* Estilo de registro */
+
+.inicio {
     position: relative;
     line-height: 14.36px;
-  }
-  .inicio-parent {
+}
+
+.inicio-parent {
     position: absolute;
     top: 13.94px;
     left: 0.01px;
@@ -3306,12 +3385,14 @@ p {
     font-size: var(--drop-menu-menu-size);
     color: var(--primary-color-dark-blue);
     font-family: var(--font-abeezee);
-  }
-  .click-here {
+}
+
+.click-here {
     position: relative;
     line-height: 24px;
-  }
-  .registrate {
+}
+
+.registrate {
     top: 1.24px;
     left: 504.2px;
     border-radius: 34.11px;
@@ -3324,17 +3405,19 @@ p {
     justify-content: center;
     padding: 8.378686904907227px 16.757373809814453px 5.984776496887207px;
     box-sizing: border-box;
-  }
-  .fondo-4,
-  .group-child,
-  .login,
-  .nav,
-  .registrate {
+}
+
+.fondo-4,
+.group-child,
+.login,
+.nav,
+.registrate {
     position: absolute;
     transform: rotate(-0.03deg);
     transform-origin: 0 0;
-  }
-  .login {
+}
+
+.login {
     top: -0.32px;
     left: 654.97px;
     border-radius: 34.11px;
@@ -3347,17 +3430,19 @@ p {
     justify-content: center;
     padding: 8.378686904907227px 16.757373809814453px 5.984776496887207px;
     box-sizing: border-box;
-  }
-  .fondo-4,
-  .group-child,
-  .nav {
+}
+
+.fondo-4,
+.group-child,
+.nav {
     top: 17.97px;
     left: 589.66px;
     width: 790.33px;
     height: 43.08px;
-  }
-  .fondo-4,
-  .group-child {
+}
+
+.fondo-4,
+.group-child {
     top: 1627.66px;
     left: 354px;
     border-radius: var(--br-16xl);
@@ -3365,28 +3450,32 @@ p {
     width: 2069.93px;
     height: 820.23px;
     transform: rotate(-28.5deg);
-  }
-  .fondo-4 {
+}
+
+.fondo-4 {
     top: 270.25px;
     left: 0;
     background-color: rgba(247, 219, 167, 0.7);
     width: 447.95px;
     height: 721.62px;
     transform: rotate(-37.11deg);
-  }
-  .group-item {
+}
+
+.group-item {
     position: absolute;
     top: 509.48px;
     left: 644.5px;
     width: 174px;
     height: 5.37px;
-  }
-  .donaciones1,
-  .macak {
+}
+
+.donaciones1,
+.macak {
     position: absolute;
     display: flex;
-  }
-  .macak {
+}
+
+.macak {
     top: 416.52px;
     left: 653px;
     font-size: var(--font-size-6xl);
@@ -3396,8 +3485,9 @@ p {
     align-items: flex-end;
     width: 96px;
     height: 29.35px;
-  }
-  .donaciones1 {
+}
+
+.donaciones1 {
     top: 482.99px;
     left: 644px;
     font-size: 30px;
@@ -3406,13 +3496,15 @@ p {
     align-items: center;
     width: 201px;
     height: 26.76px;
-  }
-  .banner-child,
-  .banner-item {
+}
+
+.banner-child,
+.banner-item {
     position: absolute;
     transform-origin: 0 0;
-  }
-  .banner-child {
+}
+
+.banner-child {
     top: 997px;
     left: 0;
     border-radius: 75.99px;
@@ -3420,8 +3512,9 @@ p {
     width: 1321.56px;
     height: 773.69px;
     transform: rotate(28.25deg);
-  }
-  .banner-item {
+}
+
+.banner-item {
     top: -230.77px;
     left: 19.75px;
     border-radius: 57.57px;
@@ -3429,16 +3522,18 @@ p {
     width: 1348.17px;
     height: 1049.7px;
     transform: rotate(11.41deg);
-  }
-  .adorable-perro-basenji-marron-icon {
+}
+
+.adorable-perro-basenji-marron-icon {
     position: absolute;
     top: 709px;
     left: 0;
     width: 833px;
     height: 576px;
     object-fit: cover;
-  }
-  .banner {
+}
+
+.banner {
     position: absolute;
     top: 580px;
     left: 743px;
@@ -3447,8 +3542,9 @@ p {
     width: 1159px;
     height: 1206px;
     overflow: hidden;
-  }
-  .fondo-donaciones {
+}
+
+.fondo-donaciones {
     position: absolute;
     top: 634px;
     left: 964.92px;
@@ -3458,8 +3554,9 @@ p {
     height: 675.1px;
     transform: rotate(0.2deg);
     transform-origin: 0 0;
-  }
-  .macak1 {
+}
+
+.macak1 {
     position: absolute;
     top: 652px;
     left: 1220px;
@@ -3471,41 +3568,47 @@ p {
     align-items: flex-end;
     width: 193px;
     height: 34px;
-  }
-  .group-inner {
+}
+
+.group-inner {
     position: absolute;
     top: 1165px;
     left: 1398px;
     background-color: #d9d9d9;
     width: 24px;
     height: 20px;
-  }
-  .macak-all-rights,
-  .terms-of-service {
+}
+
+.macak-all-rights,
+.terms-of-service {
     position: absolute;
     top: -31.02px;
     left: 0.02px;
     line-height: 18px;
-  }
-  .terms-of-service {
+}
+
+.terms-of-service {
     top: -30.02px;
     left: 570.37px;
-  }
-  .derechos-reservados {
+}
+
+.derechos-reservados {
     position: absolute;
     top: 133.38px;
     left: 370.96px;
     width: 706.2px;
     height: 67.24px;
-  }
-  .facebook-negative {
+}
+
+.facebook-negative {
     position: relative;
     width: 24px;
     height: 24px;
     overflow: hidden;
     flex-shrink: 0;
-  }
-  .redes-sociales {
+}
+
+.redes-sociales {
     position: absolute;
     top: 97.51px;
     left: 649.99px;
@@ -3518,8 +3621,9 @@ p {
     gap: 30.22px;
     transform: rotate(0.03deg);
     transform-origin: 0 0;
-  }
-  .regstrate-ahora-para {
+}
+
+.regstrate-ahora-para {
     position: relative;
     line-height: 30px;
     display: inline-block;
@@ -3527,13 +3631,15 @@ p {
     height: 84px;
     flex-shrink: 0;
     z-index: 0;
-  }
-  .type-something-here {
+}
+
+.type-something-here {
     flex: 1;
     position: relative;
     line-height: 30px;
-  }
-  .input {
+}
+
+.input {
     border-radius: 6.04px;
     background-color: var(--white);
     border: 0.8px solid var(--neutral-color-40);
@@ -3545,19 +3651,22 @@ p {
     align-items: center;
     justify-content: flex-start;
     padding: 10.576667785644531px 21.153335571289062px;
-  }
-  .click-here2 {
+}
+
+.click-here2 {
     position: relative;
     line-height: 30px;
-  }
-  .button-l,
-  .frame,
-  .suscribete {
+}
+
+.button-l,
+.frame,
+.suscribete {
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-  }
-  .button-l {
+}
+
+.button-l {
     border-radius: 6.04px;
     background-color: var(--primary-color-dark-blue);
     width: 95px;
@@ -3568,14 +3677,16 @@ p {
     font-size: 12.09px;
     color: var(--neutral-color-00);
     font-family: var(--font-abel);
-  }
-  .frame,
-  .suscribete {
+}
+
+.frame,
+.suscribete {
     margin: 0 !important;
     position: absolute;
     justify-content: flex-start;
-  }
-  .suscribete {
+}
+
+.suscribete {
     top: 14px;
     left: 601px;
     border-radius: 10.58px;
@@ -3588,8 +3699,9 @@ p {
     z-index: 1;
     font-size: var(--font-size-mini);
     color: var(--neutral-color-40);
-  }
-  .frame {
+}
+
+.frame {
     top: -22px;
     left: -9px;
     border-radius: 12.09px;
@@ -3600,13 +3712,15 @@ p {
     padding: 24.175241470336914px;
     gap: 15.11px;
     z-index: 0;
-  }
-  .footer,
-  .frame-wrapper {
+}
+
+.footer,
+.frame-wrapper {
     position: absolute;
     transform-origin: 0 0;
-  }
-  .frame-wrapper {
+}
+
+.frame-wrapper {
     top: 35px;
     left: 24.98px;
     border-bottom: 0.8px solid var(--neutral-color-20);
@@ -3622,8 +3736,10 @@ p {
     font-size: var(--font-size-6xl);
     color: var(--white);
     font-family: var(--font-abhaya-libre-extrabold);
-  }
-  /* .footer {
+}
+
+
+/* .footer {
     top: 1744.69px;
     left: 609px;
     border-radius: 23.94px 23.94px var(--br-4xl-9) var(--br-4xl-9);
@@ -3641,9 +3757,10 @@ p {
     color: var(--neutral-color-60);
     font-family: var(--font-abhaya-libre);
   } */
-  .group-child1,
-  .group-child2,
-  .rectangle-div {
+
+.group-child1,
+.group-child2,
+.rectangle-div {
     position: absolute;
     top: 870px;
     left: 1117px;
@@ -3653,26 +3770,30 @@ p {
     box-sizing: border-box;
     width: 190px;
     height: 37px;
-  }
-  .group-child1,
-  .group-child2 {
+}
+
+.group-child1,
+.group-child2 {
     top: 869px;
     left: 1319px;
     width: 180px;
-  }
-  .group-child2 {
+}
+
+.group-child2 {
     top: 948.53px;
     left: 1117px;
     width: 382px;
-  }
-  .menu-label {
+}
+
+.menu-label {
     position: relative;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
     display: none;
-  }
-  .cantidad-a-donar {
+}
+
+.cantidad-a-donar {
     position: absolute;
     top: 840.19px;
     left: 1131.46px;
@@ -3682,16 +3803,18 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .menu-label1 {
+}
+
+.menu-label1 {
     position: relative;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
-  }
-  .cantidad-a-donar1,
-  .cantidad-a-donar2,
-  .cantidad-a-donar3 {
+}
+
+.cantidad-a-donar1,
+.cantidad-a-donar2,
+.cantidad-a-donar3 {
     position: absolute;
     top: 839px;
     left: 1126px;
@@ -3701,29 +3824,34 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .cantidad-a-donar2,
-  .cantidad-a-donar3 {
+}
+
+.cantidad-a-donar2,
+.cantidad-a-donar3 {
     top: 713px;
     left: 1282px;
-  }
-  .cantidad-a-donar3 {
+}
+
+.cantidad-a-donar3 {
     top: 842px;
     left: 1328px;
-  }
-  .ellipse-div,
-  .i {
+}
+
+.ellipse-div,
+.i {
     position: absolute;
-  }
-  .ellipse-div {
+}
+
+.ellipse-div {
     top: 0;
     left: 0;
     border-radius: 50%;
     background-color: var(--color-darkslategray-100);
     width: 15px;
     height: 15px;
-  }
-  .i {
+}
+
+.i {
     top: 2px;
     left: 6px;
     letter-spacing: 0.03em;
@@ -3733,15 +3861,17 @@ p {
     align-items: center;
     width: 4px;
     height: 12px;
-  }
-  .ellipse-parent {
+}
+
+.ellipse-parent {
     position: absolute;
     top: 4px;
     left: 0;
     width: 15px;
     height: 15px;
-  }
-  .cantidad-a-donar4 {
+}
+
+.cantidad-a-donar4 {
     position: absolute;
     top: 0;
     left: 48px;
@@ -3753,8 +3883,9 @@ p {
     justify-content: center;
     font-size: var(--font-size-mini);
     color: var(--color-darkslategray-100);
-  }
-  .group-parent {
+}
+
+.group-parent {
     position: absolute;
     top: 1163px;
     left: 1129px;
@@ -3762,8 +3893,9 @@ p {
     height: 23px;
     font-size: var(--drop-menu-menu-size);
     color: var(--white);
-  }
-  .cantidad-a-donar5 {
+}
+
+.cantidad-a-donar5 {
     position: absolute;
     top: 924px;
     left: 1105px;
@@ -3773,9 +3905,10 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .group-child3,
-  .group-child4 {
+}
+
+.group-child3,
+.group-child4 {
     position: absolute;
     top: 1028px;
     left: 1119px;
@@ -3785,13 +3918,15 @@ p {
     box-sizing: border-box;
     width: 382px;
     height: 37px;
-  }
-  .group-child4 {
+}
+
+.group-child4 {
     top: 1107px;
-  }
-  .boton-donar,
-  .cantidad-a-donar6,
-  .cantidad-a-donar7 {
+}
+
+.boton-donar,
+.cantidad-a-donar6,
+.cantidad-a-donar7 {
     position: absolute;
     top: 997px;
     left: 1120px;
@@ -3801,13 +3936,15 @@ p {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .boton-donar,
-  .cantidad-a-donar7 {
+}
+
+.boton-donar,
+.cantidad-a-donar7 {
     top: 1084px;
     left: 1142px;
-  }
-  .boton-donar {
+}
+
+.boton-donar {
     top: 1212.14px;
     left: 1159px;
     border-radius: 34.11px;
@@ -3821,48 +3958,56 @@ p {
     font-size: 26px;
     color: var(--neutral-color-00);
     font-family: var(--font-abhaya-libre);
-  }
-  .iconsregularplus {
+}
+
+.iconsregularplus {
     position: relative;
     width: 20px;
     height: 20px;
     display: none;
-  }
-  .menu-label8 {
+}
+
+.menu-label8 {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-  }
-  .label11 {
+}
+
+.label11 {
     position: absolute;
     top: 0;
     left: 0;
     letter-spacing: 0.03em;
     line-height: 18px;
     font-weight: 500;
-  }
-  .label1,
-  .label2,
-  .label4 {
+}
+
+.label1,
+.label2,
+.label4 {
     position: relative;
     width: 45px;
     height: 18px;
     display: none;
-  }
-  .label2,
-  .label4 {
+}
+
+.label2,
+.label4 {
     width: 49px;
-  }
-  .label4 {
+}
+
+.label4 {
     width: 50px;
-  }
-  .iconsregularchevron-down-s {
+}
+
+.iconsregularchevron-down-s {
     position: relative;
     width: 20px;
     height: 20px;
-  }
-  .header {
+}
+
+.header {
     align-self: stretch;
     border-radius: var(--br-5xs);
     background-color: var(--white);
@@ -3873,19 +4018,22 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-lg);
     z-index: 1;
-  }
-  .label12 {
+}
+
+.label12 {
     position: relative;
     width: 45px;
     height: 18px;
-  }
-  .iconsregularchevron-down-s1 {
+}
+
+.iconsregularchevron-down-s1 {
     position: relative;
     width: 20px;
     height: 20px;
     opacity: 0;
-  }
-  .item-hover {
+}
+
+.item-hover {
     align-self: stretch;
     background-color: var(--white);
     display: flex;
@@ -3894,14 +4042,16 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 4;
-  }
-  .label24 {
+}
+
+.label24 {
     position: relative;
     width: 49px;
     height: 18px;
-  }
-  .item-hover1,
-  .item-hover2 {
+}
+
+.item-hover1,
+.item-hover2 {
     align-self: stretch;
     background-color: var(--white);
     display: flex;
@@ -3910,37 +4060,43 @@ p {
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 3;
-  }
-  .item-hover2 {
+}
+
+.item-hover2 {
     z-index: 2;
-  }
-  .label48 {
+}
+
+.label48 {
     position: relative;
     width: 50px;
     height: 18px;
-  }
-  .item-hover3 {
+}
+
+.item-hover3 {
     align-self: stretch;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 1;
-  }
-  .item-hover3,
-  .item-hover4,
-  .items-list {
+}
+
+.item-hover3,
+.item-hover4,
+.items-list {
     background-color: var(--white);
     display: flex;
     align-items: center;
-  }
-  .item-hover4 {
+}
+
+.item-hover4 {
     align-self: stretch;
     flex-direction: row;
     justify-content: space-between;
     padding: var(--padding-2xs) var(--padding-5xl);
     z-index: 0;
-  }
-  .items-list {
+}
+
+.items-list {
     position: absolute;
     width: 100%;
     right: 0;
@@ -3951,17 +4107,19 @@ p {
     overflow: hidden;
     flex-direction: column;
     justify-content: flex-end;
-  }
-  .items-frame {
+}
+
+.items-frame {
     align-self: stretch;
     position: relative;
     height: 1px;
     overflow: hidden;
     flex-shrink: 0;
     z-index: 0;
-  }
-  .dropdown-box,
-  .selecione-banco {
+}
+
+.dropdown-box,
+.selecione-banco {
     width: 381.01px;
     height: 98.78px;
     display: flex;
@@ -3970,8 +4128,9 @@ p {
     justify-content: center;
     transform: rotate(0.03deg);
     transform-origin: 0 0;
-  }
-  .selecione-banco {
+}
+
+.selecione-banco {
     position: absolute;
     top: 741.23px;
     left: 1118.35px;
@@ -3981,8 +4140,9 @@ p {
     justify-content: flex-start;
     transform: rotate(-0.03deg);
     font-size: var(--drop-menu-menu-size);
-  }
-  .rectangle-parent {
+}
+
+.rectangle-parent {
     position: absolute;
     top: -400px;
     left: -594px;
@@ -3991,8 +4151,9 @@ p {
     font-size: var(--font-size-xl);
     color: var(--black);
     font-family: var(--drop-menu-menu);
-  }
-  .registro {
+}
+
+.registro {
     position: relative;
     background-color: var(--white);
     width: 100%;
@@ -4002,6 +4163,4 @@ p {
     font-size: var(--body-16px-medium-size);
     color: var(--neutral-color-00);
     font-family: var(--font-abhaya-libre);
-  }
-  
-  
+}

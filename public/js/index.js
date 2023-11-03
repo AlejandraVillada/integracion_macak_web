@@ -25,6 +25,17 @@ $(' li a.listar').on('click', function(e) {
     });
 });
 
+$('div.vermas a.listar').on('click', function(e) {
+    e.preventDefault();
+    var aID = $(this).attr('href');
+    $.post(aID, function(data) {
+        if (aID != "#") {
+            $("#contenido").html(data);
+        }
+    });
+});
+
+
 function home() {
     $.ajax({
         type: "get",
@@ -42,20 +53,24 @@ function home() {
                     URL_imagen = 'public/img/fundaciones/' + value.URL_imagen;
                 }
                 $("#mascotas").append(
-                    '<div class="profile-card-4 text-center col-lg-6 p-0">' +
-                    ' <img src="' + URL_imagen + '" class="img img-responsive" style="height:280px; width:auto;">' +
-                    '    <div class="profile-content bg-primary-plantilla">' +
-                    '        <div class="profile-description text-black">' +
-                    '            <h5>' + value.nombre + '</h5>' +
-                    '        </div>' +
-                    '        <div class="row">' +
-                    '            <div class="col-xs-4">' +
-                    '                <div class="profile-overview">' +
-                    '                </div>' +
-                    '            </div>' +
-                    '        </div>' +
+
+                    '<div class="group-4">' +
+                    '    <div class="rectangle-wrapper">' +
+                    '        <div class="rectangle-7"></div>' +
+                    '    </div>' +
+                    '</div>' +
+                    '<img class="rectangle-8" src="' + URL_imagen + '" />' +
+                    '<div class="group-5">' +
+                    '    <div class="text-wrapper-3">Caramelo</div>' +
+                    '    <p class="fundaci-n-huellas-de">' +
+                    '        <span class="span">Fundación:&nbsp;&nbsp;</span>' +
+                    '        <span class="text-wrapper-4">Huellas de Esperanza</span>' +
+                    '    </p>' +
+                    '    <div class="button-l-2">' +
+                    '        <div class="click-here-3">Más información</div>' +
                     '    </div>' +
                     '</div>'
+
                 );
             }
         });

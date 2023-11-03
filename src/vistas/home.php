@@ -14,29 +14,15 @@ $_SESSION['title'] = 'MACAK| Home ';
                     <div class="rectangle-2"></div>
                     <div class="rectangle-3"></div>
                 </div>
-                <div class="cartas" >
+                <div class="cartas">
                     <div class="overlap-2" id="fundacion">
-                        <div class="card">
-                            <div class="group-wrapper">
-                                <div class="overlap-group-wrapper">
-                                    <div class="overlap-group-2">
-                                        <div class="view-wrapper">
-                                            <div class="view">
-                                                <div class="ellipse"></div>
-                                            </div>
-                                        </div>
-                                        <div class="ellipse-2"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>    
+                    </div>
                 </div>
                 <div class="texto-adopciones">
                     <div class="text-wrapper-2">Fundaciones</div>
                 </div>
-                <div class="ver-ms">
-                    <a href="src/vistas/fundaciones.php" class="click-here-2">ver más</a>
+                <div class="ver-ms vermas">
+                    <a href="src/vistas/fundaciones.php" class="click-here-2 listar">ver más</a>
                     <img class="arrow-chevron-right-3"
                         src="https://c.animaapp.com/SKPIC6Mj/img/arrow---chevron-right-md-4.svg" />
                 </div>
@@ -63,27 +49,7 @@ $_SESSION['title'] = 'MACAK| Home ';
                                 <div class="group-2">
                                     <div class="group-3">
                                         <div class="overlap-group-3" id="mascotas">
-                                            <div class="group-4">
-                                                <div class="rectangle-wrapper">
-                                                    <div class="rectangle-7"></div>
-                                                </div>
-                                            </div>
-                                            <img class="rectangle-8"
-                                                src="https://c.animaapp.com/SKPIC6Mj/img/rectangle-7-9.svg" />
-                                            <img class="pngwing"
-                                                src="https://c.animaapp.com/SKPIC6Mj/img/pngwing-2-11@2x.png" />
-                                            <img class="mascota"
-                                                src="https://c.animaapp.com/SKPIC6Mj/img/mascota-1-8@2x.png" />
-                                            <div class="group-5">
-                                                <div class="text-wrapper-3">Caramelo</div>
-                                                <p class="fundaci-n-huellas-de">
-                                                    <span class="span">Fundación:&nbsp;&nbsp;</span>
-                                                    <span class="text-wrapper-4">Huellas de Esperanza</span>
-                                                </p>
-                                                <div class="button-l-2">
-                                                    <div class="click-here-3">Más información</div>
-                                                </div>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -92,11 +58,11 @@ $_SESSION['title'] = 'MACAK| Home ';
                     </div>
                 </div>
                 <div class="texto-adopciones-2">
-                    <div class="text-wrapper-6">Apradinamiento</div>
+                    <div class="text-wrapper-6">Apradrinamiento</div>
                 </div>
                 <img class="image-2" src="https://c.animaapp.com/SKPIC6Mj/img/image-1@2x.png" />
-                <div class="ver-ms-2">
-                    <div class="click-here-5">ver más</div>
+                <div class="ver-ms-2 vermas">
+                    <a href="src/vistas/fundaciones.php" class="click-here-2 listar">ver más</a>
                     <img class="arrow-chevron-right-6"
                         src="https://c.animaapp.com/SKPIC6Mj/img/arrow---chevron-right-md-1.svg" />
                 </div>
@@ -130,7 +96,7 @@ $_SESSION['title'] = 'MACAK| Home ';
                                         <div class="overlap-group-6">
                                             <div class="group-10">
                                                 <div class="view-2">
-                                                    <div class="rectangle-18"></div>
+                                                    <div class="rectangle-18" id="mascotas"></div>
                                                 </div>
                                             </div>
                                             <img class="rectangle-19"
@@ -156,8 +122,8 @@ $_SESSION['title'] = 'MACAK| Home ';
                         </div>
                     </div>
                 </div>
-                <div class="ver-ms-3">
-                    <div class="click-here-7">ver más</div>
+                <div class="ver-ms-3 vermas">
+                    <a href="src/vistas/fundaciones.php" class="click-here-2 listar">ver más</a>
                     <img class="arrow-chevron-right-7"
                         src="https://c.animaapp.com/SKPIC6Mj/img/arrow---chevron-right-md.svg" />
                 </div>
@@ -206,5 +172,5 @@ $_SESSION['title'] = 'MACAK| Home ';
 
 <script src="public/js/index.js"></script>
 <script>
-    $(document).ready(home);
+$(document).ready(home);
 </script>

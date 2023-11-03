@@ -32,7 +32,6 @@ function fundaciones() {
                 '    </div>' +
                 '</div>'
             );
-            // $("#fundacion").append("<div class='card carta_fundaciones m-3 col-4' style='width: 18 rem; position: relative; left: 30 px;'><img src='" + value.URL_imagen + "' class='card-img-top' alt='...' style='border-radius: 100 % ; width:200 px; height:150 px; position:relative; left:35 px; top: 15 px;'><div class='card-body'><h5 class='card-title'>" + value.nombre + "</h5><button type='button' class='btn bg-secondary-plantilla vermas' data-bs-toggle='modal' data-bs-target='#detalle_fundacion' data-codigo='" + value.id + "' >Ver Mas</button></div></div>")
         });
 
     });
